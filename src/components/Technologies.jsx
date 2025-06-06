@@ -8,6 +8,7 @@ import { DiRedis } from "react-icons/di";
 import { SiApachekafka } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
 import { TbBrandDocker } from "react-icons/tb";
+import { RiNextjsFill } from "react-icons/ri";
 import { animate, motion } from "motion/react";
 
 const iconVariants = (duration) => ({
@@ -92,6 +93,12 @@ const Technologies = () => {
             initial="initial"
             animate="animate" className="rounded-4xl border-4 border-neutral-500 p-4">
                 <TbBrandDocker className="text-7xl text-blue-400"/>
+            </motion.div>
+            <motion.div 
+            variants={iconVariants(9)}
+            initial="initial"
+            animate="animate" className="rounded-4xl border-4 border-neutral-500 p-4">
+                <RiNextjsFill className="text-7xl text-blue-400"/>
             </motion.div>
         </div>
     </div>

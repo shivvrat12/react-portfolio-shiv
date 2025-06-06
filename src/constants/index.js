@@ -25,18 +25,18 @@ export const PROJECTS = [
     technologies: ["JAVA", "Javascript", "React", "PostgreSQL", "Redis", "Kafka", "Docker"],
   },
   {
+    title: "Resume Crowded",
+    image: project3,
+    description:
+      "Resume Crowded is an AI-powered tool that analyzes resumes to highlight strengths, identify flaws, and provide an overall rating. Designed for job seekers and professionals, it offers actionable insights to improve your resume instantly—available on Web and Android platforms.",
+    technologies: ["Kotlin","TypeScript", "Jetpack Compose", "Node.js", "NextJS", "TailwindCSS", "Express.js"],
+  },
+  {
     title: "Trip Planner",
     image: project4,
     description:
       "Trip Planner is a mobile application designed to make trip planning easy and collaborative. The app enables users to create trips, invite collaborators, and manage trip details efficiently. It includes a robust backend and a user-friendly frontend for seamless functionality.",
     technologies: ["Kotlin", "Jetpack Compose", "Node.js", "Retrofit"],
-  },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Tailwind"],
   },
 ];
 
